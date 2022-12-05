@@ -7,8 +7,8 @@
         "node": "16.x"
     },
     "scripts": {
-        "start": "Set \"NODE_ENV=development\" ./node_modules/.bin/netlify-lambda serve src",
-        "build": "Set \"NODE_ENV=production\" ./node_modules/.bin/netlify-lambda build src"
+        "start": "NODE_ENV=development ./node_modules/.bin/netlify-lambda serve src",
+        "build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda build src"
     },
     "repository": {
         "type": "git",
