@@ -25,9 +25,9 @@
     },
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/mussacharles60/vending-machine/issues"
+        "url": "https://github.com/mussacharles60/vending-ws/issues"
     },
-    "homepage": "https://github.com/mussacharles60/vending-machine#readme",
+    "homepage": "https://github.com/mussacharles60/vending-ws#readme",
     "dependencies": {
         "@faker-js/faker": "^6.0.0-alpha.7",
         "@types/body-parser": "^1.19.2",

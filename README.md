@@ -1,2 +1,2 @@
 # vending-ws
- web socket fr vending mchine project
+ web socket fr vending machine project
