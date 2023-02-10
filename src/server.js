@@ -299,8 +299,8 @@ io.on('connection', (socket) => {
         }
         try {
             const obj = JSON.parse(data);
-            if (obj && obj.device_id && obj.client_id) {
-                socket.broadcast.emit('shop-dev-data-' + obj.device_id + '-' + obj.client_id, data);
+            if (obj && obj.device_id) {
+                socket.broadcast.emit('shop-dev-data-' + obj.device_id, data);
             }
         }
         catch (err) {
